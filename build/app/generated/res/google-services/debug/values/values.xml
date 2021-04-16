@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">240404987882-61q3r33tbn7tgqte874vdgaki4bik4f0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">240404987882</string>
+    <string name="google_api_key" translatable="false">AIzaSyCAMBLfo3uqsBg2bPyw_cn55GcBJuHTv88</string>
+    <string name="google_app_id" translatable="false">1:240404987882:android:d75eac28870916e187fc93</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCAMBLfo3uqsBg2bPyw_cn55GcBJuHTv88</string>
+    <string name="google_storage_bucket" translatable="false">bdlojamoda.appspot.com</string>
+    <string name="project_id" translatable="false">bdlojamoda</string>
+</resources>

@@ -1,0 +1,125 @@
+//tela de login
+import 'package:apploja/models/user.dart';
+import 'package:apploja/models/user_manage.dart';
+import 'package:apploja/pages/validators.dart';//validação do e-mail
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart'; // para de dar erro no context.read<UserManager>().signIn mais expecifico no read
+
+class LoginScreen extends StatelessWidget {
+
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();//controle de quando clicar no botão executa o metodod ou opção, a classe globalkey faz validação ele verifica o que foi digitado
+  final GlobalKey<ScaffoldState>_scaffoldKey = GlobalKey<ScaffoldState>();
+
+/* _pode usar em apenas uma classe, sem o _ pode usar em qualquer classe, o flutter coloca como privado em tudo */
+
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+
+     return Scaffold(
+       key:_scaffoldKey,
+       body: Center(
+        child: Card(//retorna um card um retangulo com as EdgeInsets copm o tamanho do card, sentro dele vai ter um formulario
+         
+          margin: const EdgeInsets.symmetric(horizontal: 16),
+  
+          child: Form (
+             key: _formKey,
+             child: ListView(//list view faz a direção do scrol de rolagem
+              padding: const EdgeInsets.all(16),
+              shrinkWrap: true,
+              children: <Widget>[
+                Container(
+                  width: 100,
+                  height: 175,
+                  child: Image.asset('assets/vestido.png'),
+                  color: Colors.pinkAccent[100],
+                ),
+              
+               TextFormField(
+               controller: _emailController,
+               decoration: const InputDecoration(hintText: 'E-mail'),
+               keyboardType: TextInputType.emailAddress,
+               autocorrect: false,//o cursor não vai estar piscando 
+               validator: (email){//validador do e-mail, @ . _ - tudo. ele busca da aba validators.dart
+                if(!emailValid(email))
+                  return 'E-mail inválido';
+                return null;
+              },
+             ),
+              const SizedBox(height: 16,),
+              TextFormField(
+                  controller: _passController,
+                  decoration: const InputDecoration(hintText: 'Senha'),
+                  autocorrect: false,//não vai ter cursor piscando
+                  obscureText: true,//simbolo de formtação de senha(famosas bolinha)
+                  validator: (pass){
+                  if(pass.isEmpty || pass.length < 6)//não pode ser isEmpty vazia  || length menor que 6
+                      return 'Senha inválida';
+                    return null;
+                  },
+                 ),
+                 Align( //esta sem ação, mas é a classe do botão esqueci minha senha
+                   alignment: Alignment.centerRight,
+                   child: FlatButton(
+                   onPressed: (){
+                      //sem ação
+                   },
+                    padding: EdgeInsets.zero,
+                    child: const Text(
+                      'Esqueci minha senha'
+                    ),
+                   ),
+                 ),
+                 Align( //esta sem ação, mas é a classe do botão Cadastre-se agora
+                   alignment: Alignment.centerRight,
+                   child: FlatButton(
+                   onPressed: (){
+                      //sem ação
+                   },
+                    padding: EdgeInsets.zero,
+                    child: const Text(
+                      'Cadastre-se agora'
+                    ),
+                   ),
+                 ),
+                 const SizedBox(height: 16,),
+                 SizedBox(
+                    height: 44,
+                      child: RaisedButton(
+                      onPressed: (){//realiazando a validação
+if(_formKey.currentState.validate()){
+    context.read<UserManager>().signIn(
+    user: User(
+         email: _emailController.text,
+         password: _passController.text),
+         onFail: (e) {
+             _scaffoldKey.currentState.showSnackBar(SnackBar(
+             content: Text('Falha ao entrar: $e'),
+             backgroundColor: Colors.red,
+         ));
+        },
+        onSuccsess:() {
+        // TODO: FECHAR TELA DE LOGIN
+     });
+                       
+                       color: Theme.of(context).primaryColor,
+                       textColor: Colors.white70,//cor branca na fonte
+                       child: const Text(
+                         'Entrar',
+                       style: TextStyle(
+                      fontSize: 18
+                     ),
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+        ),
+       ),
+     );
+  }
+}

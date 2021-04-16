@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240404987882",
+    "project_id": "bdlojamoda",
+    "storage_bucket": "bdlojamoda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240404987882:android:d75eac28870916e187fc93",
+        "android_client_info": {
+          "package_name": "com.example.apploja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240404987882-61q3r33tbn7tgqte874vdgaki4bik4f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAMBLfo3uqsBg2bPyw_cn55GcBJuHTv88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240404987882-61q3r33tbn7tgqte874vdgaki4bik4f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
