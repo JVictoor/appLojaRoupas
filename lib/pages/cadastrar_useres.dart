@@ -100,7 +100,7 @@ class CadastrarUsersScreen extends StatelessWidget {
                             onSuccsess: () {
                               _scaffoldKey.currentState.showSnackBar(SnackBar(
                                 content: Text('Cadastro realizado com sucesso'),
-                                backgroundColor: Colors.red,
+                                backgroundColor: Colors.pink[300],
                               ));
                               debugPrint('sucesso');
                               // TODO: POP
@@ -108,7 +108,7 @@ class CadastrarUsersScreen extends StatelessWidget {
                             onFail: (e) {
                               _scaffoldKey.currentState.showSnackBar(SnackBar(
                                 content: Text('Falha ao cadastrar: $e'),
-                                backgroundColor: Colors.red,
+                                backgroundColor: Colors.red[700],
                               ));
                             });
                       }

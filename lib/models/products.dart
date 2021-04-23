@@ -4,13 +4,14 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Products {
-  Products({ this.id, this.color, this.model, this.size });
+  Products({ this.id, this.color, this.model, this.price, this.size, });
   //Firebase trabalha com arquivo em txt (JSON), Esta pegando os dados atribuindo o que eles são e colocando no documento
   Products.fromDocument(DocumentSnapshot document) {
     id = document.documentID;
     color = document.data['color'] as String;
     model = document.data['model'] as String;
     size = document.data['size'] as String;
+    price = document.data['price'] as String;
    
   }
 
@@ -18,6 +19,7 @@ class Products {
   String color;
   String model;
   String size;
+  String price;
 
   //
   //método para salvar todos os dados no banco Firestore DataBase
@@ -31,6 +33,7 @@ class Products {
       'color': color,
       'model': model,
       'size': size,
+      'price':price,
     };
   }
 }
