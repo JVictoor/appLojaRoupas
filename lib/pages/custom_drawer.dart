@@ -25,20 +25,25 @@ class CustomDrawer extends StatelessWidget {
             page: 1,
           ),
           DrawerTile(
+            iconData: Icons.photo_camera_back,
+            title: 'Fotos',
+            page: 2,
+          ),
+          DrawerTile(
             iconData: Icons.playlist_add_check_outlined,
             title: 'Meus Pedidos',
-            page: 2,
+            page: 3,
           ),
           DrawerTile(
             iconData: Icons.location_on,
             title: 'Lojas Parceiras',
-            page: 3,
+            page: 4,
           ),
           
           DrawerTile(
               iconData: Icons.exit_to_app_sharp,
               title: 'Sair',
-              page: 4,
+              page: 5,
             ),
         ],
       ),

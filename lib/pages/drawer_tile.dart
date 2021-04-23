@@ -26,7 +26,15 @@ class DrawerTile extends StatelessWidget {
             ),
           );
         }
-                if (page == 4) {
+        if (page == 2) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => CadastrarProductsScreen(),
+            ),
+          );
+        }
+        if (page == 5) {
           Navigator.push(
             context,
             MaterialPageRoute(

@@ -22,7 +22,7 @@ class BaseScreen extends StatelessWidget {
           // //acessando o arquivo do menu lateral
           drawer: CustomDrawer(),//onde esta o meu menu
           appBar : AppBar (
-          title:  const Text("MENUZINHO *-*"),
+          title:  const Text("MENUZINHO ^-^"),
           ),
         ),
       ],
