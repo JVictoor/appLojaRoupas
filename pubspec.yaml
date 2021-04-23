@@ -30,7 +30,7 @@ dependencies:
   #........................................................................................................................
   # vai utilizar 3 classes separadas para o JSON se comunicar com o BD da FireBase
   cupertino_icons: ^1.0.0
-  cloud_firestore:
+  cloud_firestore: ^0.13.5
   #versão antiga para funcionar legal - FirebaseAuth vinculado com a user_manage
   firebase_auth: ^0.16.0
   # provider é um modelo de provedor que vai buscar os provedores do firebase

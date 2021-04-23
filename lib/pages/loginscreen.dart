@@ -29,6 +29,18 @@ class LoginScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               shrinkWrap: true,
               children: <Widget>[
+
+                Container(height:40),//espaço
+
+                Container(
+                  width: 100,
+                  height: 100,
+                  child: Image.asset('assets/vestido.png'),
+                ),
+                
+                Container(height:30),//espaço
+
+
                 TextFormField(
                   controller: _emailController,
                   decoration: const InputDecoration(hintText: 'E-mail'),

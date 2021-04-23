@@ -1,6 +1,8 @@
 // ver qual item foi clicaco e colocar a cor nos itens
 // toda a estilziaão dos textos e de tudo que chama aqui
 
+import 'package:apploja/pages/cadastrar_products.dart';
+import 'package:apploja/pages/cadastrar_useres.dart';
 import 'package:apploja/pages/loginscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +19,14 @@ class DrawerTile extends StatelessWidget {
       //aqui pe onde chama a pagina que queremos, esse if page==1 ele chama o topico que esta reçacionado no numero 1 do custom_dreawer.
       onTap: () {
         if (page == 1) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => CadastrarProductsScreen(),
+            ),
+          );
+        }
+                if (page == 4) {
           Navigator.push(
             context,
             MaterialPageRoute(

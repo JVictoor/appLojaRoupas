@@ -17,6 +17,7 @@ class BaseScreen extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       children: <Widget>[
         Scaffold (
+          
          //LoginScreen(),//tela de login
           // //acessando o arquivo do menu lateral
           drawer: CustomDrawer(),//onde esta o meu menu
