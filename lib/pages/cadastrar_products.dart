@@ -1,6 +1,5 @@
 import 'package:apploja/models/products.dart';
 import 'package:apploja/models/products_manager.dart';
-import 'package:apploja/pages/validators.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

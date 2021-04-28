@@ -4,9 +4,10 @@ import 'package:apploja/helpers/firebase_errors.dart';
 import 'package:apploja/models/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-class UserManager {
+class UserManager extends ChangeNotifier {
 /* utiliza o Firebase Auth, instanciando ela, jogando em auth para pegar o metodo sigIn para verificar se o password é valido*/
   final FirebaseAuth auth = FirebaseAuth.instance;//fazer a autenticação do e-mail e senha
   

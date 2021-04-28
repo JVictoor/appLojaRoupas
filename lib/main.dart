@@ -16,9 +16,23 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-     return Provider(
+     //multiprovader tras multipĺas telas
+     return MultiProvider(
       /* primiera coisa vai ir direto na user manger, instanciando a firebase auth(só sera executado quando tiver o toque no botão), camando o login screen */
-      create: (_) => ProductsManager(),
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => UserManager(),
+          lazy: false, // verifica qual vai ser ativado
+        ),
+      
+        ChangeNotifierProvider(
+          create: (_) => ProductsManager(),
+          lazy: false,
+        ),
+      ],
+
+
+
       child: MaterialApp(
         title: 'applojavirtual',
         debugShowCheckedModeBanner: false, // retira o banner
@@ -30,8 +44,8 @@ class MyApp extends StatelessWidget {
 
         //home: Container(), // chama a container de primeira
         // home: BaseScreen(),// chama a basescren de primeira
-       // home: LoginScreen(), //chama o login de primeira
-       home: CadastrarProductsScreen(),
+        home: LoginScreen(), //chama o login de primeira
+       //home: CadastrarProductsScreen(),
         
         
       ),

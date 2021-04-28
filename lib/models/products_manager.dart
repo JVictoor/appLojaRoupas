@@ -2,12 +2,15 @@
 //aqui éa continuação dos dados para cadastro, onde esta ligando os dados com o banco
 import 'package:apploja/helpers/firebase_errors.dart';
 import 'package:apploja/models/products.dart';
-import 'package:apploja/models/user.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-class ProductsManager {
+//ChangeNotifier-> chama as notificações
+
+class ProductsManager extends ChangeNotifier {
   final Firestore firestore = Firestore.instance;
 
   Future<void> registro(
@@ -20,5 +23,51 @@ class ProductsManager {
       onFail(getErrorString(e.code));
     }
   }
+
+
+
+  ProductsManager() {
+    //acessa o método private da classe para ler todo os produtos cadastrados
+    loadAllProducts();//quando clica em produtos no app, chama esse metodo para abrir todos os livros
+  }
+  //instancia o firebase firestore
+  final Firestore firesore = Firestore.instance;
+
+  List<Products> allProducts = [];
+
+  Future<void> loadAllProducts() async{
+
+    final QuerySnapshot snapProducts = 
+      await firesore.collection('products').getDocuments();
+      //collection('products') precisa ser o memso nome da coleção criada no firestore
+
+      allProducts = snapProducts.documents.map((d) => Products.fromDocument(d)).toList();
+    
+      notifyListeners();
+
+  }
+
 }
 
+
+
+
+
+
+
+
+
+
+/*   
+só grava no banco sem imagens
+
+Future<void> registro(
+      {Products products, Function onFail, Function onSuccess}) async {
+    try {
+      await products.saveData();
+
+      onSuccess();
+    } on PlatformException catch (e) {
+      onFail(getErrorString(e.code));
+    }
+  } */
