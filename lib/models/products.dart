@@ -4,7 +4,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Products {
-  //Products({ this.id, this.color, this.model, this.price, this.size});
+  
+  Products({ this.id, this.color, this.model, this.price, this.size});
   
   //Firebase trabalha com arquivo em txt (JSON), Esta pegando os dados atribuindo o que eles são e colocando no documento
   //(DocumentSnapshot - faz as leituras dos dados no firebase

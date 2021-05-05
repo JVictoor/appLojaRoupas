@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class CadastrarProductsScreen extends StatelessWidget {
+  
   final GlobalKey<FormState> _formKey =
       GlobalKey<FormState>(); //para quando cklicar no botão
 

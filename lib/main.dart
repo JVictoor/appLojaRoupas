@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
      //multiprovader tras multipĺas telas
      return MultiProvider(
       /* primiera coisa vai ir direto na user manger, instanciando a firebase auth(só sera executado quando tiver o toque no botão), camando o login screen */
+      //colocar as paginas que vão ser chamadas
       providers: [
         ChangeNotifierProvider(
           create: (_) => UserManager(),
