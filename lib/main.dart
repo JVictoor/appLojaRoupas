@@ -30,6 +30,8 @@ class MyApp extends StatelessWidget {
           create: (_) => ProductsManager(),
           lazy: false,
         ),
+
+       
       ],
 
 

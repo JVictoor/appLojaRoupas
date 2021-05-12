@@ -5,8 +5,7 @@ import 'package:provider/provider.dart';
 
 class CadastrarProductsScreen extends StatelessWidget {
   
-  final GlobalKey<FormState> _formKey =
-      GlobalKey<FormState>(); //para quando cklicar no botão
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>(); //para quando cklicar no botão
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -15,11 +14,7 @@ class CadastrarProductsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //return Provider(
-      //create: (_) => ProductsManager(),
-
-      //child: Scaffold(
-      //stados fixos
+ 
       key: _scaffoldKey,
       appBar: AppBar(
         title: const Text('Cadastrar Produtos'),

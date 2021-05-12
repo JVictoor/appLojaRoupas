@@ -32,8 +32,9 @@ dependencies:
   cupertino_icons: ^1.0.0
   cloud_firestore: ^0.13.5
   #versão antiga para funcionar legal - FirebaseAuth vinculado com a user_manage
+  #firebase_auth: usa para fazer acesso a login
   firebase_auth: ^0.16.0
-  # provider é um modelo de provedor que vai buscar os provedores do firebase
+  # provider é um modelo de provedor que vai buscar os provedores do firebase - acessos a informação e gerenciamento de paginas
   provider: ^4.1.2
 
 

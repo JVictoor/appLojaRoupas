@@ -2,7 +2,7 @@
 /* classe que interage com os usuarios */
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-
+//json
 class User {
   User({this.id, this.email, this.password, this.name, this.cpf});
   //Firebase trabalha com arquivo em txt (JSON), Esta pegando os dados atribuindo o que eles são e colocando no documento
