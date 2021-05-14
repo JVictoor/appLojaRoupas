@@ -3,9 +3,12 @@
 import 'package:apploja/models/products.dart';
 import 'package:apploja/models/products_manager.dart';
 import 'package:apploja/models/user_manager.dart';
+import 'package:apploja/pages/basescreen.dart';
 import 'package:apploja/pages/cadastrar_products.dart';
 //import 'package:apploja/pages/basescreen.dart';
 import 'package:apploja/pages/loginscreen.dart';
+import 'package:apploja/pages/products_list.dart';
+import 'package:apploja/pages/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -34,8 +37,6 @@ class MyApp extends StatelessWidget {
        
       ],
 
-
-
       child: MaterialApp(
         title: 'applojavirtual',
         debugShowCheckedModeBanner: false, // retira o banner
@@ -45,9 +46,23 @@ class MyApp extends StatelessWidget {
               .adaptivePlatformDensity, //indentidade do visual de acordo com a plataforma
         ),
 
+        //dizendo onde estão as rotas para chamar as paginas
+        initialRoute: '/',
+        
+        routes: {
+          LoginScreen.router: (_) => LoginScreen(),//Rota inicial
+          BaseScreen.router: (_) => BaseScreen(),// chamando a baseScreen
+          CadastrarProductsScreen.router: (_) => CadastrarProductsScreen(),//chamando a cadastar
+          ProductsScreen.router: (_) => ProductsScreen(),//chamando a lista
+          
+          
+        
+          
+        },
+
         //home: Container(), // chama a container de primeira
         // home: BaseScreen(),// chama a basescren de primeira
-        home: LoginScreen(), //chama o login de primeira
+        //home: LoginScreen(), //chama o login de primeira
        //home: CadastrarProductsScreen(),
         
         

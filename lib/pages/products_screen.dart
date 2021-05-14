@@ -6,6 +6,9 @@ import 'package:apploja/pages/custom_drawer.dart';
 import 'package:flutter/material.dart';
 
 class ProductsScreen extends StatelessWidget {
+  
+  static const router='/products';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

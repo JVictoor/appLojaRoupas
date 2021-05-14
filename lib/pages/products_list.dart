@@ -50,7 +50,7 @@ class ProductsList extends StatelessWidget {
 	                  ),
 
                     Text(
-	                    product.price,
+	                    "RS " + product.price,
 	                    style: TextStyle(
 	                      fontSize: 16,
 	                      fontWeight: FontWeight.w800,

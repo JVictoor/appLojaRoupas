@@ -1,5 +1,6 @@
 import 'package:apploja/models/products.dart';
 import 'package:apploja/models/products_manager.dart';
+import 'package:apploja/pages/custom_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -10,12 +11,15 @@ class CadastrarProductsScreen extends StatelessWidget {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   final Products products = Products();
-
+  
+  static const router='/cadastrarproducts';
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
  
       key: _scaffoldKey,
+      drawer: CustomDrawer(),//menu lateral
       appBar: AppBar(
         title: const Text('Cadastrar Produtos'),
         centerTitle: true,

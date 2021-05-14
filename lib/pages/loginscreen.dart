@@ -8,6 +8,9 @@ import 'package:apploja/pages/cadastrar_useres.dart';
 
 class LoginScreen extends StatelessWidget {
 
+  //dizendo que essa é a pagina principal
+  static const router ='/';
+
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();//para quando cklicar no botão
   
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>(); //se precisarmos de alguma outra classe
