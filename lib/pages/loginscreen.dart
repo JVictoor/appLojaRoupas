@@ -9,7 +9,7 @@ import 'package:apploja/pages/cadastrar_useres.dart';
 class LoginScreen extends StatelessWidget {
 
   //dizendo que essa é a pagina principal
-  static const router ='/';
+  static const router ='/'; // rota para chamar quando clicar - complemento dela esta na main.dart
 
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();//para quando cklicar no botão
   

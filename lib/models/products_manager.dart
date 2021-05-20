@@ -35,6 +35,32 @@ class ProductsManager extends ChangeNotifier {
 
   List<Products> allProducts = [];
 
+  //buscador do filtro
+  String _search = '';
+
+  String get search => _search;
+  set search(String value){
+    _search = value;
+    notifyListeners();
+  }
+
+  List<Products> get filteredProducts {
+    final List<Products> filteredProducts = [];
+
+    if(search.isEmpty){
+      filteredProducts.addAll(allProducts);
+    } else {
+      filteredProducts.addAll(
+        allProducts.where(
+          (p) => p.color.toLowerCase().contains(search.toLowerCase())
+        )
+      );
+    }
+
+    return filteredProducts;
+  }
+
+
   Future<void> loadAllProducts() async{
 
     final QuerySnapshot snapProducts = 

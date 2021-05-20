@@ -54,8 +54,7 @@ class MyApp extends StatelessWidget {
           BaseScreen.router: (_) => BaseScreen(),// chamando a baseScreen
           CadastrarProductsScreen.router: (_) => CadastrarProductsScreen(),//chamando a cadastar
           ProductsScreen.router: (_) => ProductsScreen(),//chamando a lista
-          
-          
+           
         
           
         },

@@ -12,7 +12,7 @@ class CadastrarProductsScreen extends StatelessWidget {
 
   final Products products = Products();
   
-  static const router='/cadastrarproducts';
+  static const router='/cadastrarproducts'; // rota para chamar quando clicar - complemento dela esta na main.darth
   
   @override
   Widget build(BuildContext context) {

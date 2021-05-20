@@ -34,7 +34,7 @@ class CustomDrawer extends StatelessWidget {
                 page: 0,
               ),
               DrawerTile(
-                iconData: Icons.home_outlined, //modelo do icone
+                iconData: Icons.app_registration, //modelo do icone
                 title: 'Cadastro',
                 page: 1,
               ),
