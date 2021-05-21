@@ -38,7 +38,7 @@ class LoginScreen extends StatelessWidget {
                 Container(
                   width: 100,
                   height: 100,
-                  child: Image.asset('assets/vestido.png'),
+                  child: Image.asset('assets/vestido.png'),//imagem do
                 ),
                 
                 Container(height:30),//espaço
@@ -55,7 +55,7 @@ class LoginScreen extends StatelessWidget {
                   },
                 ),
                 const SizedBox(
-                  height: 16,
+                  height: 20,//altura do e-mail e senha 
                 ),
                 TextFormField(
                   controller: _passController,
@@ -77,7 +77,7 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 16,
+                  height: 2,//altura do esqueci minha senha e do cadastre-se
                 ),
                 Align(
                   alignment: Alignment.centerRight,

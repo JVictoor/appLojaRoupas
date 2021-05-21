@@ -64,9 +64,6 @@ class ProductsList extends StatelessWidget {
 	                      fontWeight: FontWeight.w800,
 	                    ),
 	                  ),
-
-
-
 	                ],
 	              ),
 	            )
