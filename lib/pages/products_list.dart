@@ -2,7 +2,9 @@
 //
 //
 import 'package:apploja/models/products.dart';
+import 'package:apploja/models/products_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';// resolve o problema do read
 
 class ProductsList extends StatelessWidget {
 	
@@ -12,7 +14,18 @@ class ProductsList extends StatelessWidget {
 	
 	  @override
 	  Widget build(BuildContext context) {
-	    return Card(
+
+            return GestureDetector(
+					onTap: () {
+						//acessando o método para selecionar o produto clicado abrindo a
+						//tela de produtos
+						context.read<ProductsManager>().productSelected(product);
+						Navigator.of(context).pushNamed('/loadproduct', arguments: product);//vai acessar a tela de load_product_screen.dart
+		    },
+
+
+
+	    child: Card(
 	      shape: RoundedRectangleBorder(
 	        borderRadius: BorderRadius.circular(4)
 	      ),
@@ -70,6 +83,7 @@ class ProductsList extends StatelessWidget {
 	          ],
 	        ),
 	      ),
+      )
 	    );
 	  }
 	}

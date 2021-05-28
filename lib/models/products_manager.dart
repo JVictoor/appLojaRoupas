@@ -13,6 +13,17 @@ import 'package:flutter/services.dart';
 class ProductsManager extends ChangeNotifier {
   final Firestore firestore = Firestore.instance;
 
+  //instanciando a model Products
+  Products _products;
+  
+  //buscando o produto desejado 
+  Products get products => _products;
+
+  ProductsManager(){
+    //acessando o metodo privado da classe para ler todos os produtos cadastrados
+    loadAllProducts();
+  }
+
   Future<void> registro(
       {Products products, Function onFail, Function onSuccess}) async {
     try {
@@ -26,10 +37,10 @@ class ProductsManager extends ChangeNotifier {
 
 
 
-  ProductsManager() {
+/*   ProductsManager() {
     //acessa o método private da classe para ler todo os produtos cadastrados
     loadAllProducts();//quando clica em produtos no app, chama esse metodo para abrir todos os livros
-  }
+  } */
   //instancia o firebase firestore
   final Firestore firesore = Firestore.instance;
 
@@ -68,9 +79,16 @@ class ProductsManager extends ChangeNotifier {
       //collection('products') precisa ser o memso nome da coleção criada no firestore
 
       allProducts = snapProducts.documents.map((d) => Products.fromDocument(d)).toList();
-    
+
+      //notifyListeners - serve para mandar uma mensagem caso de algum erro
       notifyListeners();
 
+  }
+
+  //metodo para quando clicar no item seleciona ele, chamado productSelected.
+  productSelected(Products products){
+    _products = products;
+    notifyListeners();
   }
 
 }

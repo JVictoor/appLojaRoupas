@@ -36,7 +36,9 @@ dependencies:
   firebase_auth: ^0.16.0
   # provider é um modelo de provedor que vai buscar os provedores do firebase - acessos a informação e gerenciamento de paginas
   provider: ^4.1.2
+  carousel_pro: ^1.0.0
 
+  
 
 dev_dependencies:
   flutter_test:

@@ -17,6 +17,7 @@ class CustomDrawerHeader extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
+              
               Text(
                 'Loja FEF',
                 style: TextStyle(
@@ -24,9 +25,10 @@ class CustomDrawerHeader extends StatelessWidget {
                   fontWeight: FontWeight.bold,//bold negrito
                 ),
               ),
-             
-              Text(
-                'Olá, ${userManager.user?.name ?? ''}',//esta relacionaod com o user_manager (_loadCurrentUser)
+    
+
+                Text(
+                'Olá, ${userManager.user?.name ?? ''}',//esta relacionado com o user_manager (_loadCurrentUser)
                 overflow: TextOverflow.ellipsis,
                 maxLines: 2,
                 style: TextStyle(
@@ -34,7 +36,7 @@ class CustomDrawerHeader extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-            ],
+          ],
           );
         },
       ),

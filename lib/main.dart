@@ -1,13 +1,14 @@
 //inicio do app
 //chama a base scren
-import 'package:apploja/models/products.dart';
+
 import 'package:apploja/models/products_manager.dart';
 import 'package:apploja/models/user_manager.dart';
 import 'package:apploja/pages/basescreen.dart';
 import 'package:apploja/pages/cadastrar_products.dart';
+import 'package:apploja/pages/edit_products_screen.dart';
+import 'package:apploja/pages/load_product_screen.dart';
 //import 'package:apploja/pages/basescreen.dart';
 import 'package:apploja/pages/loginscreen.dart';
-import 'package:apploja/pages/products_list.dart';
 import 'package:apploja/pages/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -54,6 +55,8 @@ class MyApp extends StatelessWidget {
           BaseScreen.router: (_) => BaseScreen(),// chamando a baseScreen
           CadastrarProductsScreen.router: (_) => CadastrarProductsScreen(),//chamando a cadastar
           ProductsScreen.router: (_) => ProductsScreen(),//chamando a lista
+          LoadProductScreen.router: (_) => LoadProductScreen(),//
+          EditProductsScreen.router: (_) => EditProductsScreen(),//
            
         
           
