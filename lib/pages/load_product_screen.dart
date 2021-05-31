@@ -25,7 +25,7 @@ class LoadProductScreen extends StatelessWidget {
             ),
 
             IconButton(
-              icon: Icon(Icons.shopping_cart), 
+              icon: Icon(Icons.shopping_cart_rounded), 
               onPressed: (){
                
               }
