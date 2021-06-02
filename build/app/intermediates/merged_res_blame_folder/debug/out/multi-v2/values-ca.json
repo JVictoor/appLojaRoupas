@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jvictor/Documentos/www/flutter/apploja/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/home/jvictor/.gradle/caches/transforms-2/files-2.1/b4abb3ae12fe055372984e118f8f9d66/jetified-play-services-basement-17.1.0/res/values-ca/values.xml",

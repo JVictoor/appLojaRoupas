@@ -1,3 +1,6 @@
+
+#BIBLIOTECAS E OUTROS
+
 name: apploja
 description: A new Flutter project.
 
@@ -36,7 +39,10 @@ dependencies:
   firebase_auth: ^0.16.0
   # provider é um modelo de provedor que vai buscar os provedores do firebase - acessos a informação e gerenciamento de paginas
   provider: ^4.1.2
+  #biblioteca para imagens 
   carousel_pro: ^1.0.0
+  #biblioteca de imagem de galeria e de camera antes 
+  image_picker: ^0.6.7
 
   
 

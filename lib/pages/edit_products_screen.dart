@@ -9,6 +9,8 @@ import 'package:provider/provider.dart';
 class EditProductsScreen extends StatelessWidget {
   static const router = '/editprodutct';
 
+  //para adicionar uma imagem
+  final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 /*   const EditProductsScreen(this.products);
 
   final Products products; */
@@ -23,7 +25,18 @@ class EditProductsScreen extends StatelessWidget {
         body: Consumer<ProductsManager>(builder: (_, manager, __) {
           return ListView(
             children: <Widget>[
-              ImagesForm(manager.products),
+              ImagesForm(manager.products),//onde esta o carrocel de imagens
+             
+             //botão para validar se a pessoa escolheu uma imagem ou não(precis do formKey) ele precisa selecionar uma imagem da galeria ou do celular mesmo
+              RaisedButton(
+                key: formKey,
+                onPressed: () {
+                  if (formKey.currentState.validate()) {
+                    print('válido!!!');//aparece no console
+                  }
+                },
+                child: const Text('Salvar'),
+              ),
             ],
           );
         }
