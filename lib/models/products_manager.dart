@@ -2,9 +2,7 @@
 //aqui éa continuação dos dados para cadastro, onde esta ligando os dados com o banco
 import 'package:apploja/helpers/firebase_errors.dart';
 import 'package:apploja/models/products.dart';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

@@ -2,11 +2,8 @@
 //widget - controlador visual
 
 import 'package:apploja/models/page_manager.dart';
-import 'package:apploja/models/products.dart';
 import 'package:apploja/pages/cadastrar_products.dart';
 import 'package:apploja/pages/custom_drawer.dart';
-import 'package:apploja/pages/loginscreen.dart';
-import 'package:apploja/pages/products_list.dart';
 import 'package:apploja/pages/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

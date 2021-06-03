@@ -2,9 +2,6 @@
 // toda a estilziaão dos textos e de tudo que chama aqui
 
 import 'package:apploja/models/page_manager.dart';
-import 'package:apploja/pages/cadastrar_products.dart';
-import 'package:apploja/pages/cadastrar_useres.dart';
-import 'package:apploja/pages/loginscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
