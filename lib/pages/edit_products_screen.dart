@@ -55,7 +55,7 @@ class EditProductsScreen extends StatelessWidget {
                         ),
 
                        
-                       //esse trevho serve para colocar uma descrição entre os dados
+                       //esse trecho serve para colocar uma descrição entre os dados
                         /* Padding(
                       padding: const EdgeInsets.only(top: 16),
                       child: Text(
