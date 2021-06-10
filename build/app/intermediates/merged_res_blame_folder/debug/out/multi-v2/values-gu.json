@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/home/jvictor/Documentos/www/flutter/appLojaRoupas/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/home/jvictor/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/res/values-gu/values-gu.xml",

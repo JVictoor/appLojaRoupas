@@ -1,15 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-MERGED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
-MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/b67c1f5d8511c1b26c5525eb0328045e/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:2:1-26:12
@@ -39,33 +39,33 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jvictor/.gradle/caches
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/f68d88153fad4b06f2b02635801d201d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/81afbe2347ff58d13c6b6f3c614ebf96/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/1b919a2a58badc61a3de65d4486deaa1/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:2:5-34
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:3:4-40:19
-MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:3:4-40:19
+MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:16:5-24:19
@@ -89,65 +89,65 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jvict
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:4:9-32
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:4:9-32
 	android:icon
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:5:9-43
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:5:9-43
 activity#com.example.apploja.MainActivity
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:6:9-34:20
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:6:9-34:20
 	android:launchMode
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:8:13-43
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:8:13-43
 	android:hardwareAccelerated
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:11:13-47
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:11:13-47
 	android:windowSoftInputMode
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:12:13-55
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:12:13-55
 	android:configChanges
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:10:13-163
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:10:13-163
 	android:theme
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:9:13-47
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:9:13-47
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:7:13-41
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:7:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:17:13-20:17
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:17:13-20:17
 	android:resource
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:19:15-52
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:19:15-52
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:18:15-70
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:18:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:26:13-29:17
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:26:13-29:17
 	android:resource
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:28:15-61
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:28:15-61
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:27:15-79
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:27:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:30:13-33:29
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:30:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:17-68
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:17-68
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:17-76
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:17-76
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:27-74
 meta-data#flutterEmbedding
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:37:9-39:33
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:37:9-39:33
 	android:value
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:39:13-30
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:39:13-30
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:38:13-44
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:38:13-44
 uses-sdk
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/b67c1f5d8511c1b26c5525eb0328045e/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/b67c1f5d8511c1b26c5525eb0328045e/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:21:5-44
@@ -206,28 +206,28 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/jvictor/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/81afbe2347ff58d13c6b6f3c614ebf96/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/1b919a2a58badc61a3de65d4486deaa1/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/1b919a2a58badc61a3de65d4486deaa1/jetified-protolite-well-known-types-17.1.1/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:17:9-23:19
@@ -241,49 +241,49 @@ MERGED from [com.google.firebase:firebase-common:19.5.0] /home/jvictor/.gradle/c
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.5.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+		ADDED from [:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 	android:authorities
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 	android:exported
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 	android:resource
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 	android:name
-		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+		ADDED from [:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
-ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+		ADDED from [:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+		ADDED from [:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.1] /home/jvictor/.gradle/caches/transforms-2/files-2.1/fec711a1432231d36ce79e04e4a4afcd/jetified-firebase-firestore-22.1.1/AndroidManifest.xml:13:5-79

@@ -14,6 +14,7 @@ class ImagesForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return FormField<List<dynamic>>(
 
       //faz a lista de produtos
@@ -22,6 +23,9 @@ class ImagesForm extends StatelessWidget {
         if (images.isEmpty) return 'Insira ao menos uma imagem';//se a lista estiver vazia ele retorna essa msgn
         return null;
       },
+
+      //alterando e peganos as novas imagens apos as alterações feitas, salvando em newImages
+      onSaved: (images) => product.newImages = images,//faz referencia ao List<dynamic> newImages; do products.dart
 
       //onImageSelected metodo para chamar o arquivo, vai adicionar o arquivo da galeria ou da camera
       builder: (state) {

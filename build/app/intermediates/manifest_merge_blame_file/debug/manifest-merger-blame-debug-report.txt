@@ -12,42 +12,42 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
-15-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+15-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
-16-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+16-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 17-->[com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:24:5-79
 17-->[com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:24:22-76
 18
 19    <application
-19-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:3:4-40:19
+19-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:3:4-40:19
 20        android:name="androidx.multidex.MultiDexApplication"
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.1.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:5:9-43
+23-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:5:9-43
 24        android:label="apploja" >
-24-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:4:9-32
+24-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:4:9-32
 25        <activity
-25-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:6:9-34:20
+25-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:6:9-34:20
 26            android:name="com.example.apploja.MainActivity"
-26-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:7:13-41
+26-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:7:13-41
 27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-27-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:10:13-163
+27-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:10:13-163
 28            android:hardwareAccelerated="true"
-28-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:11:13-47
+28-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:11:13-47
 29            android:launchMode="singleTop"
-29-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:8:13-43
+29-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:8:13-43
 30            android:theme="@style/LaunchTheme"
-30-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:9:13-47
+30-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:9:13-47
 31            android:windowSoftInputMode="adjustResize" >
-31-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:12:13-55
+31-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:12:13-55
 32
 33            <!--
 34                 Specifies an Android theme to apply to this Activity as soon as
@@ -56,11 +56,11 @@
 37                 to determine the Window background behind the Flutter UI.
 38            -->
 39            <meta-data
-39-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:17:13-20:17
+39-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:17:13-20:17
 40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:18:15-70
+40-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:18:15-70
 41                android:resource="@style/NormalTheme" />
-41-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:19:15-52
+41-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:19:15-52
 42            <!--
 43                 Displays an Android View that continues showing the launch screen
 44                 Drawable until Flutter paints its first frame, then this splash
@@ -69,21 +69,21 @@
 47                 Flutter's first frame.
 48            -->
 49            <meta-data
-49-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:26:13-29:17
+49-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:26:13-29:17
 50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-50-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:27:15-79
+50-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:27:15-79
 51                android:resource="@drawable/launch_background" />
-51-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:28:15-61
+51-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:28:15-61
 52
 53            <intent-filter>
-53-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:30:13-33:29
+53-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:30:13-33:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:17-68
-54-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:25-66
+54-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:17-68
+54-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:31:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:17-76
-56-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:27-74
+56-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:17-76
+56-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:32:27-74
 57            </intent-filter>
 58        </activity>
 59        <!--
@@ -91,38 +91,38 @@
 61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 62        -->
 63        <meta-data
-63-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:37:9-39:33
+63-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:37:9-39:33
 64            android:name="flutterEmbedding"
-64-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:38:13-44
+64-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:38:13-44
 65            android:value="2" />
-65-->/home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/android/app/src/main/AndroidManifest.xml:39:13-30
+65-->/home/jvictor/Documentos/www/flutter/appLojaRoupas/android/app/src/main/AndroidManifest.xml:39:13-30
 66
 67        <service
-67-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+67-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 68            android:name="com.google.firebase.components.ComponentDiscoveryService"
-68-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+68-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 69            android:directBootAware="true"
 69-->[com.google.firebase:firebase-common:19.5.0] /home/jvictor/.gradle/caches/transforms-2/files-2.1/a348beea78586f27ffc2391bf0a13f9b/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
 70            android:exported="false" >
 70-->[com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:76:13-37
 71            <meta-data
-71-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+71-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 72                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
-72-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+72-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
 73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+73-->[:firebase_auth] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 74            <meta-data
-74-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-75-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+75-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76-->[:cloud_firestore] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 77            <meta-data
-77-->[:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77-->[:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-78-->[:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+78-->[:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[:firebase_core] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79-->[:firebase_core] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 80            <meta-data
 80-->[com.google.firebase:firebase-auth:20.0.3] /home/jvictor/.gradle/caches/transforms-2/files-2.1/4c933b82fb6ca37692eafcf5e1e9e376/jetified-firebase-auth-20.0.3/AndroidManifest.xml:77:13-79:85
 81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -148,21 +148,21 @@
 93        </service>
 94
 95        <provider
-95-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+95-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 96            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-96-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+96-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 97            android:authorities="com.example.apploja.flutter.image_provider"
-97-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+97-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 98            android:exported="false"
-98-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+98-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 99            android:grantUriPermissions="true" >
-99-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+99-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 100            <meta-data
-100-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+100-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 101                android:name="android.support.FILE_PROVIDER_PATHS"
-101-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+101-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 102                android:resource="@xml/flutter_image_picker_file_paths" />
-102-->[:image_picker] /home/jvictor/Documentos/www/flutter/lojinha/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+102-->[:image_picker] /home/jvictor/Documentos/www/flutter/appLojaRoupas/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 103        </provider>
 104
 105        <activity

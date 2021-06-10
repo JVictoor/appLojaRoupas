@@ -49,7 +49,7 @@ class LoadProductScreen extends StatelessWidget {
               }).toList(),
               dotSize: 4,
               dotSpacing: 15,
-              dotBgColor: Colors.transparent,
+              dotBgColor: Colors.black26,//cor da parte que passa as imagens da galeria
               dotColor: primaryColor,
               autoplay: false,
             ),
@@ -60,19 +60,35 @@ class LoadProductScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+                
                 Text(
-                  manager.products.color,
+                  'Cor:  ' + manager.products.color,
                   style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w600
+                    fontSize: 20,//tamanho da fonte
+                    fontWeight: FontWeight.w600 //deixa a fonte em negrito
                   ),
                 ),            
                 Text(
-                  manager.products.size,
+                 'Modelo:  ' + manager.products.model,
                   style: const TextStyle(
-                    fontSize: 16
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600                     
                   ),
-                ),                
+                ),  
+                 Text(
+                  'Tamanho:  ' + manager.products.size,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600 
+                  ),
+                ),
+                 Text(
+                  'Valor RS ' + manager.products.price,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600 
+                  ),
+                ),
               ],
             ),
           )

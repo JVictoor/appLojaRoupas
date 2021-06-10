@@ -25,7 +25,7 @@ VAI PERGAR A IMAGEM E VER SE É DA GALERIA OU DA CAMERA E TRAZER A IMPORTAÇÃO
              //PickedFile => para camera, para pegar o endereço da imagem da galeria ou da propria camera
              final PickedFile file =
              await picker.getImage(source: ImageSource.camera);//essa linha abre a camera do cell
-             onImageSelected(File(file.path));//pega o caminho ca imagem e joga no arquivo
+             onImageSelected(File(file.path));//pega o caminho da imagem e joga no arquivo
            },
             child: const Text('Câmera'),
           ),
