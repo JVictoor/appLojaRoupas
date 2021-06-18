@@ -1,4 +1,4 @@
-//
+//PAGINA PARA EDITAR OS PRODUTOS 
 
 import 'package:apploja/models/products_manager.dart';
 import 'package:apploja/pages/images_form.dart';
@@ -13,7 +13,7 @@ class EditProductsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //  final primaryColor = Theme.of(context).primaryColor; quando que descobrir para o que usou volta com ele
+      final primaryColor = Theme.of(context).primaryColor; //quando que descobrir para o que usou volta com ele
 
     return Scaffold(
         appBar: AppBar(
@@ -29,7 +29,6 @@ class EditProductsScreen extends StatelessWidget {
                   ImagesForm(
                       manager.products), //onde esta o carrocel de imagens
 
-//TRAZER TODOS OS DADOS PARA ALTERAR - PEGAR DE PRODUCTS.DART
 
                   //dados para alteração
                   Padding(
@@ -116,10 +115,18 @@ class EditProductsScreen extends StatelessWidget {
                             if (formKey.currentState.validate()) {
                               //pega o estado corrente - o que se encontra- e salva os dados
                               formKey.currentState.save();
-                            }
+                              manager.products.save(); // aqui que o cole acontece de salvar quando clica no botão de salvar
+                              
+                            }                           
                           },
-                          child: const Text('Salvar Edição'),
+
+                          textColor: Colors.white,
+                          color: primaryColor,
+                          disabledColor: primaryColor.withAlpha(100),
+                          child: const Text('Salvar'),
+                          
                         ),
+
                       ],
                     ),
                   ),
