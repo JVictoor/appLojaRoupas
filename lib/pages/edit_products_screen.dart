@@ -115,8 +115,7 @@ class EditProductsScreen extends StatelessWidget {
                             if (formKey.currentState.validate()) {
                               //pega o estado corrente - o que se encontra- e salva os dados
                               formKey.currentState.save();
-                              manager.products.save(); // aqui que o cole acontece de salvar quando clica no botão de salvar
-                              
+                              manager.products.save(); // aqui que o cole acontece de salvar quando clica no botão de salvar  
                             }                           
                           },
 

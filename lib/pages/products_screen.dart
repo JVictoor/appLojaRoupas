@@ -94,5 +94,7 @@ class ProductsScreen extends StatelessWidget {
         },
       ),
     );
+
+    //lib/screens/product/product_screen.dart  link2 veremos o que da sem aquela parte
   }
 }

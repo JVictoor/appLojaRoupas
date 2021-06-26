@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.apploja">
+    <!-- cola o users-permission do face passo 5 ou 6
+     -->
    <application
         android:label="apploja"
         android:icon="@mipmap/ic_launcher">

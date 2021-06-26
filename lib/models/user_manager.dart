@@ -87,4 +87,10 @@ toda vez que utiliza o async utiliza o await - ele manda a requisição, ele ver
           notifyListeners();
         }
    }
+   void facebookLogin(){
+     
+      // metodo do facebook 
+
+
+  }
 }

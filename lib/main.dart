@@ -10,6 +10,7 @@ import 'package:apploja/pages/load_product_screen.dart';
 //import 'package:apploja/pages/basescreen.dart';
 import 'package:apploja/pages/loginscreen.dart';
 import 'package:apploja/pages/products_screen.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -57,15 +58,12 @@ class MyApp extends StatelessWidget {
           ProductsScreen.router: (_) => ProductsScreen(),//chamando a lista
           LoadProductScreen.router: (_) => LoadProductScreen(),//
           EditProductsScreen.router: (_) => EditProductsScreen(),//
+          //CartScreen.router: (_) => CartScreen(),// chamando o cardScreen tela dos cards de carrinho
            
         
           
         },
 
-        //home: Container(), // chama a container de primeira
-        // home: BaseScreen(),// chama a basescren de primeira
-        //home: LoginScreen(), //chama o login de primeira
-       //home: CadastrarProductsScreen(),
         
         
       ),

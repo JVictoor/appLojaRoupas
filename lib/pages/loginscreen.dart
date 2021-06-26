@@ -5,6 +5,8 @@ import 'package:apploja/pages/validators.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:apploja/pages/cadastrar_useres.dart';
+import 'package:flutter_signin_button/button_list.dart';
+import 'package:flutter_signin_button/button_view.dart';
 
 class LoginScreen extends StatelessWidget {
 
@@ -129,7 +131,14 @@ class LoginScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 18),
                     ),
                   ),
-                )
+              ),
+                    SignInButton(
+                      Buttons.Facebook,
+                      text: 'Entrar com Facebook',
+                      onPressed: (){
+                        UserManager().facebookLogin();
+                      },
+                    )
               ],
             ),
           ),
