@@ -1,12 +1,17 @@
 /* classe gerenciadora dos usuarios, verifica quais users estão cadastrados */
 //aqui éa continuação dos dados para cadastro, onde esta ligando os dados com o banco
+import 'dart:html';
+
 import 'package:apploja/helpers/firebase_errors.dart';
 import 'package:apploja/models/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 
+
+User user;
 class UserManager extends ChangeNotifier {
  
   UserManager() {
@@ -15,7 +20,7 @@ class UserManager extends ChangeNotifier {
     _loadCurrentUser(); //metodo que verifica o usuario corrente(que esta logado)
   }
 
-/* utiliza o Firebase Auth, instanciando ela, jogando em auth para pegar o metodo sigIn para verificar se o password é valido*/
+  /* utiliza o Firebase Auth, instanciando ela, jogando em auth para pegar o metodo sigIn para verificar se o password é valido*/
   final FirebaseAuth auth =  FirebaseAuth.instance; //fazer a autenticação do e-mail e senha
   final Firestore firestore = Firestore.instance; // realizar as gravações no banco
 
@@ -23,15 +28,15 @@ class UserManager extends ChangeNotifier {
 
   User user; // instanciando direto a classe User 
 
-//esta criando uma variavel _loading(privada e falsa(sem valor)) depois da um get no loading para ver qual esta logado
+  //esta criando uma variavel _loading(privada e falsa(sem valor)) depois da um get no loading para ver qual esta logado
   bool _loading = false;
   bool get loading => _loading;
 
-/* signIn - apenas um nome qualquer, que recebe a classe User(precisa importar) 
-ela é assync(assincrona) ela vai na autentication procura se existe no banco e retorna
-toda vez que utiliza o async utiliza o await - ele manda a requisição, ele verifica, e volta com a resposta da requisição*/
-/* Future- faz com que seja mais rapida a busca */
-//Function onFail-> quando der algo errado, Function onSuccsess-> quando der algo
+  /* signIn - apenas um nome qualquer, que recebe a classe User(precisa importar) 
+  ela é assync(assincrona) ela vai na autentication procura se existe no banco e retorna
+  toda vez que utiliza o async utiliza o await - ele manda a requisição, ele verifica, e volta com a resposta da requisição*/
+  /* Future- faz com que seja mais rapida a busca */
+  //Function onFail-> quando der algo errado, Function onSuccsess-> quando der algo
   Future<void> signIn({User user, Function onFail, Function onSuccsess}) async {
     try {
       _loading = true; //mostra qual usuario esta logado
@@ -87,10 +92,58 @@ toda vez que utiliza o async utiliza o await - ele manda a requisição, ele ver
           notifyListeners();
         }
    }
-   void facebookLogin(){
+  
+  
+   Future< void> facebookLogin(Function onFail, Function onSuccsess) async {
      
-      // metodo do facebook 
+    loading =true;  //mostrando carregamento
 
+     final result = await FacebookLogin().logIn(['email', 'public_profile']);//realiza todas as permições
+
+    //verificando os status do resultado do login
+    switch(result.status){
+      case FacebookLoginStatus.loggedIn://sucesso
+      //acessando as credenciais do facebook
+      final credential = FacebookAuthProvider.getCredential(
+        accessToken: result.accessToken.token
+      );
+
+      //enviando as credencias para o firebase
+
+      final AuthResult = auth.signInWithCredential(credential);
+
+      if(AuthResult.user !=null){
+        final FirebaseUser: AuthResult.user;
+     
+
+      //pegando os dados e salvando no database
+
+      user = User(
+        id: FirebaseUser.uid,
+        name: FirebaseUser.displayName,
+        email: FirebaseUser.email
+
+      );
+
+      //pedindo para salvar
+      await user.saveData();
+
+      //se foi sucesso
+      onSuccsess();
+     }
+
+
+      break;
+      
+      case FacebookLoginStatus.cancelledByUser://cancelamento
+      break;
+     
+      case FacebookLoginStatus.error://erro
+      onFail(result.errorMessage);
+
+      break;
+     }
+      loading=false;//finalizando o carregamento
 
   }
 }
