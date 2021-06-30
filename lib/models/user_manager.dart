@@ -11,7 +11,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 
 
-User user;
+//User user;
 class UserManager extends ChangeNotifier {
  
   UserManager() {
@@ -94,56 +94,41 @@ class UserManager extends ChangeNotifier {
    }
   
   
-   Future< void> facebookLogin(Function onFail, Function onSuccsess) async {
-     
-    loading =true;  //mostrando carregamento
+   Future<void> facebookLogin({Function onFail, Function onSuccess}) async {
+    loading = true;
 
-     final result = await FacebookLogin().logIn(['email', 'public_profile']);//realiza todas as permições
+    final result = await FacebookLogin().logIn(['email', 'public_profile']);
 
-    //verificando os status do resultado do login
     switch(result.status){
-      case FacebookLoginStatus.loggedIn://sucesso
-      //acessando as credenciais do facebook
-      final credential = FacebookAuthProvider.getCredential(
-        accessToken: result.accessToken.token
-      );
+      case FacebookLoginStatus.loggedIn:
+        final credential = FacebookAuthProvider.getCredential(
+          accessToken: result.accessToken.token
+        );
 
-      //enviando as credencias para o firebase
+        final authResult = await auth.signInWithCredential(credential);
 
-      final AuthResult = auth.signInWithCredential(credential);
+        if(authResult.user != null){
+          final firebaseUser = authResult.user;
 
-      if(AuthResult.user !=null){
-        final FirebaseUser: AuthResult.user;
-     
+          user = User(
+            id: firebaseUser.uid,
+            name: firebaseUser.displayName,
+            email: firebaseUser.email
+          );
 
-      //pegando os dados e salvando no database
+          await user.saveData();
 
-      user = User(
-        id: FirebaseUser.uid,
-        name: FirebaseUser.displayName,
-        email: FirebaseUser.email
+          onSuccess();
+        }
+        break;
+      case FacebookLoginStatus.cancelledByUser:
+        break;
+      case FacebookLoginStatus.error:
+        onFail(result.errorMessage);
+        break;
+    }
 
-      );
-
-      //pedindo para salvar
-      await user.saveData();
-
-      //se foi sucesso
-      onSuccsess();
-     }
-
-
-      break;
-      
-      case FacebookLoginStatus.cancelledByUser://cancelamento
-      break;
-     
-      case FacebookLoginStatus.error://erro
-      onFail(result.errorMessage);
-
-      break;
-     }
-      loading=false;//finalizando o carregamento
+    loading = false;
 
   }
 }
