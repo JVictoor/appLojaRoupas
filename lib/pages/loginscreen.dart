@@ -9,18 +9,19 @@ import 'package:flutter_signin_button/button_list.dart';
 import 'package:flutter_signin_button/button_view.dart';
 
 class LoginScreen extends StatelessWidget {
-
   //dizendo que essa é a pagina principal
-  static const router ='/'; // rota para chamar quando clicar - complemento dela esta na main.dart
+  static const router =
+      '/'; // rota para chamar quando clicar - complemento dela esta na main.dart
 
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();//para quando cklicar no botão
-  
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>(); //se precisarmos de alguma outra classe
+  final GlobalKey<FormState> _formKey =
+      GlobalKey<FormState>(); //para quando cklicar no botão
+
+  final GlobalKey<ScaffoldState> _scaffoldKey =
+      GlobalKey<ScaffoldState>(); //se precisarmos de alguma outra classe
 
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passController = TextEditingController();
-  
-   
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,17 +35,15 @@ class LoginScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               shrinkWrap: true,
               children: <Widget>[
-
-                Container(height:40),//espaço
+                Container(height: 40), //espaço
 
                 Container(
                   width: 100,
                   height: 100,
-                  child: Image.asset('assets/vestido.png'),//imagem do
+                  child: Image.asset('assets/vestido.png'), //imagem do
                 ),
-                
-                Container(height:30),//espaço
 
+                Container(height: 30), //espaço
 
                 TextFormField(
                   controller: _emailController,
@@ -57,7 +56,7 @@ class LoginScreen extends StatelessWidget {
                   },
                 ),
                 const SizedBox(
-                  height: 20,//altura do e-mail e senha 
+                  height: 20, //altura do e-mail e senha
                 ),
                 TextFormField(
                   controller: _passController,
@@ -79,7 +78,7 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 2,//altura do esqueci minha senha e do cadastre-se
+                  height: 2, //altura do esqueci minha senha e do cadastre-se
                 ),
                 Align(
                   alignment: Alignment.centerRight,
@@ -117,10 +116,10 @@ class LoginScreen extends StatelessWidget {
                             onSuccsess: () {
                               // TODO: FECHAR TELA DE LOGIN
                               Navigator.push(
-                                context,
-                                  MaterialPageRoute(builder: (context)=> BaseScreen(),
-                                  )
-                              );
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => BaseScreen(),
+                                  ));
                             });
                       }
                     },
@@ -131,8 +130,8 @@ class LoginScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 18),
                     ),
                   ),
-              ),
-                    
+                ),
+
                 SignInButton(
                   Buttons.Facebook,
                   text: 'Entrar com Facebook',
@@ -143,9 +142,13 @@ class LoginScreen extends StatelessWidget {
                         backgroundColor: Colors.red,
                       ));
                     }, onSuccess: () {
-                      Navigator.of(context).pop();
-                     }
-                    );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => BaseScreen(),//rota para entrar na base/tela inicial pelo facebook
+                            
+                          ));
+                    });
                   },
                 )
               ],

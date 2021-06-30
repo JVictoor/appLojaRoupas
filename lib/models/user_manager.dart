@@ -1,6 +1,6 @@
 /* classe gerenciadora dos usuarios, verifica quais users estão cadastrados */
 //aqui éa continuação dos dados para cadastro, onde esta ligando os dados com o banco
-import 'dart:html';
+//import 'dart:html';
 
 import 'package:apploja/helpers/firebase_errors.dart';
 import 'package:apploja/models/user.dart';
